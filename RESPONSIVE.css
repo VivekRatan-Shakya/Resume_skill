@@ -62,9 +62,14 @@ section:nth-child(2n + 1){
     border-radius: 50%;
 
 } */
+
 .name:hover{
-	  background-color: blueviolet;
+	  background-color: rgb(150, 150, 150,0.5);
+	  cursor: pointer;
+	  border-radius: 50px;
+
 }
+
 
 
 
