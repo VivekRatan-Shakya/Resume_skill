@@ -53,7 +53,7 @@ section:nth-child(2n + 1){
 
 
 /*name highlight*/
-.name{
+/* .name{
 	border: 1px solid white;
 	width: 50%;
 	height: auto;
@@ -61,7 +61,7 @@ section:nth-child(2n + 1){
     background-color: green;
     border-radius: 50%;
 
-}
+} */
 .name:hover{
 	  background-color: blueviolet;
 }
