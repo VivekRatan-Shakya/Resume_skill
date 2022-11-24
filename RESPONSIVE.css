@@ -1,4 +1,4 @@
-body{
+*body{
 	margin:0px;
 }
 
@@ -29,6 +29,7 @@ section:nth-child(2n + 1){
 	margin: 0;
 }
 
+
 .section-heading i{
 	margin-right: 10px;
 	font-size: 40px;
@@ -53,24 +54,25 @@ section:nth-child(2n + 1){
 
 
 /*name highlight*/
-/* .name{
+/*.name{
 	border: 1px solid white;
 	width: 50%;
 	height: auto;
     margin: 0px 0px 0px 300px;
     background-color: green;
     border-radius: 50%;
+    font-size: 1px;
+    align-items: center;
 
-} */
+}*/
 
-/* .name:hover{
+
+.name:hover{
 	  background-color: rgb(150, 150, 150,0.5);
 	  cursor: pointer;
 	  border-radius: 50px;
 
-} */
-
-
+}
 
 
 
@@ -221,30 +223,35 @@ section:nth-child(2n + 1){
 	width: 60%;
 	height: 80%;
 	justify-content: space-around;
+
+
 }
-
-
 
 .progress-parent {
     width: 11rem;
     height: 2.2rem;
-    background-color: white;
+    background-color: lightgrey;
     border-radius: 1rem;
     box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
     margin: 25px;
     overflow: hidden;
+
+
 }
 
  .progress-parent > div {
     border-radius: 20px 0px 0px 20px;
     box-shadow: 1px 1px 5px 2px #989882;
+
 }
+
 
 #java{
 	width: 80%;
-	background-color: #fff;
+	background-color: skyblue;
 	height: inherit;
 	border-radius: 25px 0 0 25px;
+
 }
 
 #database{
@@ -252,6 +259,7 @@ section:nth-child(2n + 1){
 	background-color: #b4b4b4;
 	height: inherit;
 	border-radius: 25px 0 0 25px;
+
 }
 
 #api{
@@ -410,7 +418,7 @@ font-weight: 700;
 
 #address h2{
 	flex-grow: 1;
-	/*border:2px solid black;*/
+
 	margin: 0;
 }
 #address p{
@@ -644,3 +652,4 @@ font-weight: 700;
     font-weight: 700;
     text-decoration: none;
 }
+
